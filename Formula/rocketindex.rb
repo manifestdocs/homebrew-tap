@@ -2,22 +2,22 @@ class Rocketindex < Formula
   desc "Rocket-fast polyglot language server and code indexer"
   homepage "https://github.com/rocket-tycoon/rocket-index"
   license "MIT"
-  version "0.1.0-beta.3"
+  version "0.1.0-beta.4"
 
   on_macos do
     on_arm do
-      url "https://github.com/rocket-tycoon/rocket-index/releases/download/v0.1.0-beta.3/rocketindex-v0.1.0-beta.3-aarch64-apple-darwin.tar.gz"
-      sha256 "2212914aeac45a45b1c45394f23e1f5dff127344cf413e1db692c0906126d7ea"
+      url "https://github.com/rocket-tycoon/rocket-index/releases/download/v0.1.0-beta.4/rocketindex-v0.1.0-beta.4-aarch64-apple-darwin.tar.gz"
+      sha256 "d1e6be2a41205f7a20c2ccbd01c32487d2d6ebf4c1e059e846b2b929fec772b5"
     end
     on_intel do
-      url "https://github.com/rocket-tycoon/rocket-index/releases/download/v0.1.0-beta.3/rocketindex-v0.1.0-beta.3-x86_64-apple-darwin.tar.gz"
-      sha256 "f6a61e917f9ede77a111c8bc796603c471ee08a108f0cb8ef94bc0b801565d40"
+      url "https://github.com/rocket-tycoon/rocket-index/releases/download/v0.1.0-beta.4/rocketindex-v0.1.0-beta.4-x86_64-apple-darwin.tar.gz"
+      sha256 "9c96309fc37df465e89c9d5831a0d391da130fe8ea10c86c1f2f14a3cf3dae70"
     end
   end
 
   on_linux do
-    url "https://github.com/rocket-tycoon/rocket-index/releases/download/v0.1.0-beta.3/rocketindex-v0.1.0-beta.3-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "e55b230319648cc33df7ea42043c32c0e183f48b07435577ea117c3166fab6c7"
+    url "https://github.com/rocket-tycoon/rocket-index/releases/download/v0.1.0-beta.4/rocketindex-v0.1.0-beta.4-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "86dc8bb36ed2810ae4366d5498888aa18f6fbe48cf247410ccdb84e10c6136eb"
   end
 
   def install
