@@ -1,5 +1,5 @@
-class Rocketindex < Formula
-  desc "Rocket-fast polyglot language server and code indexer"
+class RocketIndex < Formula
+  desc "Rocket-fast polyglot code indexer for AI coding agents"
   homepage "https://github.com/rocket-tycoon/rocket-index"
   license "MIT"
   version "0.1.0-beta.13"
