@@ -2,22 +2,22 @@ class RocketManifest < Formula
   desc "MCP server for living feature documentation"
   homepage "https://github.com/rocket-tycoon/rocket-manifest"
   license "BUSL-1.1"
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     on_arm do
-      url "https://github.com/rocket-tycoon/rocket-manifest/releases/download/v0.1.3/rmf-v0.1.3-aarch64-apple-darwin.tar.gz"
-      sha256 "df5edab9f169a093bf3adbb95db9cd762e8b24faf09d08f5775f9dce9bcd0a6e"
+      url "https://github.com/rocket-tycoon/rocket-manifest/releases/download/v0.1.4/rmf-v0.1.4-aarch64-apple-darwin.tar.gz"
+      sha256 "44de6ffda54a1923a9a88a552470f7d487d65c0933e395a55fa999fd1ced54ff"
     end
     on_intel do
-      url "https://github.com/rocket-tycoon/rocket-manifest/releases/download/v0.1.3/rmf-v0.1.3-x86_64-apple-darwin.tar.gz"
-      sha256 "af0a775af7b5e52ab44c616918b514ef494dd7298dba6a404846b1ef6003ecef"
+      url "https://github.com/rocket-tycoon/rocket-manifest/releases/download/v0.1.4/rmf-v0.1.4-x86_64-apple-darwin.tar.gz"
+      sha256 "fa9dcfd78765d7ded00c78781f0839fcf96870991ddbb96d56aeadab98ee1711"
     end
   end
 
   on_linux do
-    url "https://github.com/rocket-tycoon/rocket-manifest/releases/download/v0.1.3/rmf-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "3d92ce0c6cf0299c12d16f8add23b699f8edf0e889c84930eda99dcd2463f077"
+    url "https://github.com/rocket-tycoon/rocket-manifest/releases/download/v0.1.4/rmf-v0.1.4-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "ce36861e0e03cee974606a9ac70406ab13cf2d70ced7ce0f89b0b421582b997d"
   end
 
   def install
