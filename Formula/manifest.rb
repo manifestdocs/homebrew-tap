@@ -2,22 +2,22 @@ class Manifest < Formula
   desc "MCP server for living feature documentation"
   homepage "https://github.com/rocket-tycoon/manifest"
   license "BUSL-1.1"
-  version "0.1.14"
+  version "0.1.15"
 
   on_macos do
     on_arm do
-      url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.14/mfst-v0.1.14-aarch64-apple-darwin.tar.gz"
-      sha256 "5a1c13787857e9c3824ac60a4a2da2b1c97dcb1d11924a6fa9481df96f767db1"
+      url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.15/mfst-v0.1.15-aarch64-apple-darwin.tar.gz"
+      sha256 "175e963fc1332d508164bc2cace7fba4c20c3b76bc37ee64c33e4bf45db4fb23"
     end
     on_intel do
-      url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.14/mfst-v0.1.14-x86_64-apple-darwin.tar.gz"
-      sha256 "fc84585ea3869dcbd49d905b04cd9ae859617fc6db57419c32d95e02685695aa"
+      url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.15/mfst-v0.1.15-x86_64-apple-darwin.tar.gz"
+      sha256 "7ae0cd296281d21e9255280f5cbabdff33565e85173adf35e7e752a27f36d215"
     end
   end
 
   on_linux do
-    url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.14/mfst-v0.1.14-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "d91ebf5cdfdb93e9594b7239c53da8d7bdd4495b9b99461e75740ec88b85b3c3"
+    url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.15/mfst-v0.1.15-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "c7eddec9854493ead0e06bce574969586cd399a96ef2ae206a2fc0ed788e9ff6"
   end
 
   def install
