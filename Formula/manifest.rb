@@ -2,22 +2,22 @@ class Manifest < Formula
   desc "MCP server for living feature documentation"
   homepage "https://github.com/rocket-tycoon/manifest"
   license "BUSL-1.1"
-  version "0.1.20"
+  version "0.1.21"
 
   on_macos do
     on_arm do
-      url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.20/manifest-v0.1.20-aarch64-apple-darwin.tar.gz"
-      sha256 "aa3c8c4752f6ea915fc73604c8ea5e886dbdd6f964bd7eae7f2b44c867075968"
+      url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.21/manifest-v0.1.21-aarch64-apple-darwin.tar.gz"
+      sha256 "2fad1ba6625e3559fbd10b3ae209c855b2adc2eb3e6302ef7c666a2668858229"
     end
     on_intel do
-      url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.20/manifest-v0.1.20-x86_64-apple-darwin.tar.gz"
-      sha256 "8c0f70e028fdbf53fca2764a1d5736e112177fe8d02db62737901809832a5faf"
+      url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.21/manifest-v0.1.21-x86_64-apple-darwin.tar.gz"
+      sha256 "32255810206043d4416f3854c7b2f0a070aba94fbc8bf6a20ca1f2263ea34885"
     end
   end
 
   on_linux do
-    url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.20/manifest-v0.1.20-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "f1e2bb2e8dd4b380d7cd3a621e9392653e3c414bc3ece5409a5dd0ec804dbdb2"
+    url "https://github.com/rocket-tycoon/manifest/releases/download/v0.1.21/manifest-v0.1.21-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "eec58024fd7f33da8e1da6cf504e40552edd3432dbe9d9e565dff2f050c26af4"
   end
 
   def install
