@@ -2,22 +2,22 @@ class Manifest < Formula
   desc "MCP server for living feature documentation"
   homepage "https://github.com/manifestdocs/manifest"
   license "BUSL-1.1"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/manifestdocs/manifest/releases/download/v0.3.1/manifest-v0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "50073a05ffbc15911ba7f32ca92a1e7afd5554dcfbe34118349d343355f2f183"
+      url "https://github.com/manifestdocs/manifest/releases/download/v0.3.2/manifest-v0.3.2-aarch64-apple-darwin.tar.gz"
+      sha256 "ca0ebf2d87e569368d0ffa8d74e535b766087255598e778fd1b6aaf6791bbdc7"
     end
     on_intel do
-      url "https://github.com/manifestdocs/manifest/releases/download/v0.3.1/manifest-v0.3.1-x86_64-apple-darwin.tar.gz"
-      sha256 "858a5e9ae22673c8a5516ff074bf1df78ef5b2117a595d203501b59f67d1163c"
+      url "https://github.com/manifestdocs/manifest/releases/download/v0.3.2/manifest-v0.3.2-x86_64-apple-darwin.tar.gz"
+      sha256 "ab413f1891803145fb5402582e1128799ea9dbbf315550e63d642944f27df917"
     end
   end
 
   on_linux do
-    url "https://github.com/manifestdocs/manifest/releases/download/v0.3.1/manifest-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "1f6315301c4c68fd847e5ef9a223a0a0448170a4887676daae7fbd778bee2128"
+    url "https://github.com/manifestdocs/manifest/releases/download/v0.3.2/manifest-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "f36159c8314c4d78057b3124a1452bab051d0a2dfbbdec671c413e01d81ba09a"
   end
 
   def install
